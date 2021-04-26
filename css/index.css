@@ -1,0 +1,216 @@
+*{
+    margin: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+header div{
+    text-align: center;
+    background-color:rgb(12, 12, 12);
+    height: 150px;
+    border-bottom: solid 4px #FCE949;
+}
+
+header div img{
+    max-width: 200px;
+    max-height: 200px;
+    border-radius: 100%;
+    border:solid #FCE949;
+}
+
+
+nav div{
+    display: grid;
+    grid-template-columns: 1fr  1fr;
+}
+
+nav div ul {
+    display: flex;
+    justify-content: center;
+   
+    
+    
+}
+nav{
+    background-color:rgb(236, 230, 230);
+    box-shadow: 1px 1px 3px 1px rgba(0, 0, 0, 0.151);
+    
+}
+
+nav ul li{
+    margin: auto 10px;
+    display: block;
+    
+    font-weight: 600;
+    cursor: pointer;
+    padding: 5px;
+
+}
+
+nav ul li:hover{
+    border-bottom: solid #FCE949;
+    color: white;
+}
+
+.direita li{
+    align-self: right;
+}
+
+.esquerda{
+    margin-right: 100px;
+}
+
+nav div .espaço{
+    width: 300px;
+}
+
+main{
+    max-width: 1365px;
+    margin: 30px auto;
+}
+
+main .slide img{
+    width: 80%;
+    max-height: 500px;
+    margin: auto;
+
+}
+
+/*promote part*/
+main #promote{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap:36px;
+    margin: 20px auto;
+    width: 80%;
+}
+
+main #promote div{
+    width: 100%;
+    height: 190px;
+    background-color: rgb(245, 240, 240);
+    cursor: pointer;
+}
+
+main #promote div:hover{
+    border:solid #FCE949;
+}
+
+main #promote div h3{
+    font-size: 1.8em;
+    font-weight: 500;
+    margin: 20px auto 50px 20px;
+    color: rgb(155, 143, 143);
+}
+
+main #promote div h3 span{
+    color: rgb(44, 44, 44);
+    font-weight: 600;
+}
+
+main #promote div a{
+    color:  rgb(44, 44, 44);
+    font-weight: 400;
+    margin-left: 20px;
+}
+
+main #promote div a:hover{
+    text-decoration: none;
+    color:rgb(155, 143, 143);;
+}
+
+main #promote .first-promote{
+    background-image: url("file:///C:/Users/adriel.telito/Documents/Trabalho/play/img/promote/caixasom.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+main #promote .second-promote{
+    background-image: url("file:///C:/Users/adriel.telito/Documents/Trabalho/play/img/promote/caixasom.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+main #promote .third-promote{
+    background-image: url("file:///C:/Users/adriel.telito/Documents/Trabalho/play/img/promote/caixasom.webp");
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 60%;
+}
+
+/*Inicio dos itens recomendados */
+main .recomended{
+    width: 80%;
+    height: 260px;
+    display: grid;
+    grid-column-gap:18px;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin:auto;
+}
+
+main .recomended .card{
+    border: solid 1px rgb(233, 219, 219);
+}
+
+main .recomended .card #card-img{
+    text-align: center;
+}
+
+main .recomended .card #card-img img{
+    height: 200px;
+    padding: 15px;
+    margin: auto;
+
+}
+
+main .recomended .card .card-body{
+    margin: auto 25px;
+   
+}
+main .recomended .card .card-body h4{
+    font-size: 1.4em;
+    color:#00B3DD;
+    font-weight: 400;
+    margin-bottom: 4px;
+}
+
+main .recomended .card .card-body h4 span{
+    color:#00B3DD;
+    font-weight: 500;
+    
+}
+
+main .recomended .card .card-body h4 span:hover{
+    color: #FCE949;
+}
+
+main .recomended .card .card-body .title{
+    font-size: 0.9em;
+    color: rgb(29, 29, 29);
+    font-weight: 500;
+    margin-bottom: 5px;
+}
+
+main .recomended .card .card-body .descri{
+    font-size: 0.8em;
+    color: rgb(161, 146, 146);
+    font-weight: 400;
+    margin-bottom: 5px;
+}
+
+main .recomended .card .card-body a{
+    color:  rgb(44, 44, 44);
+    font-weight: 400;
+    margin-bottom: 30px;
+    
+}
+
+main .recomended .card .card-body a:hover{
+    text-decoration: none;
+    color:rgb(155, 143, 143);;
+}
+
+footer{
+    margin-top: 200px;
+}
